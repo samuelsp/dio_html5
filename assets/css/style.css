@@ -1,0 +1,49 @@
+body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav, header {
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0074D9;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+header, #contato {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container-image {   
+    margin-top: 20px; 
+    margin-right: 5px;
+    margin-bottom: 20px;
+    display: inline-block;    
+}
+
+#contato {
+    line-height: 30px;
+}
+
+#contato img {
+    float: left;
+    margin-right: 10px;    
+}
+
+#contato img, p {
+    vertical-align: middle;
+}
